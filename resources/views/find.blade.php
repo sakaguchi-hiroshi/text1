@@ -14,7 +14,7 @@
 @section('title', 'find.blade.php')
 
 @section('content')
-<form action="find" mathod="POST">
+<form action="find" method="POST">
 @csrf
 <input type="text" name="input" value="{{$input}}">
 <input type="submit" value="見つける">
